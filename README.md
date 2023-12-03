@@ -1,7 +1,7 @@
 # cpp_projs
 A collection of simple projects i made while learning C++
 
-# Prequesties
+# Prerequisite
 
 * A c++ compiler must be installed, preferably g++ (refer to [this](https://code.visualstudio.com/docs/cpp/introvideos-cpp))
 
