@@ -1,0 +1,6 @@
+.vscode/launch.json
+.vscode/tasks.json
+exec
+program
+*.exe
+*.out
