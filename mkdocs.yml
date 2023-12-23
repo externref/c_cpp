@@ -1,0 +1,52 @@
+site_name: C/C++
+repo_url: https://github.com/externref/c_cpp
+site_description: 1st sem Notes for C/C++.
+site_author: externref
+copyright: Copyright externref ( 2023 - present )
+site_url: https://externref.github.io/c_cpp
+
+theme:
+  name: "material"
+  logo: assets/c_fam.png
+  favicon: assets/c_fam.png
+
+  font:
+    text: Ubuntu
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - content.code.annotate
+    - content.tabs.link
+
+  palette:
+
+    - scheme: light
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - home: index.md
+  - C: 
+      Code Structure: c/structure.md
+      Compiling and Running: c/compiler.md
