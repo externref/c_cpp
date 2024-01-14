@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://externref.github.io/c_cpp/</loc>
-         <lastmod>2023-12-23</lastmod>
+         <lastmod>2024-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://externref.github.io/c_cpp/c/</loc>
+         <lastmod>2024-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://externref.github.io/c_cpp/c/compiler/</loc>
-         <lastmod>2023-12-23</lastmod>
+         <lastmod>2024-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://externref.github.io/c_cpp/c/d_types_ops/</loc>
+         <lastmod>2024-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://externref.github.io/c_cpp/c/kwd_var_const/</loc>
+         <lastmod>2024-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://externref.github.io/c_cpp/c/structure/</loc>
-         <lastmod>2023-12-23</lastmod>
+         <lastmod>2024-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

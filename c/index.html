@@ -12,28 +12,28 @@
         <meta name="author" content="externref">
       
       
-        <link rel="canonical" href="https://externref.github.io/c_cpp/c/compiler/">
+        <link rel="canonical" href="https://externref.github.io/c_cpp/c/">
       
       
-        <link rel="prev" href="../structure/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../kwd_var_const/">
+        <link rel="next" href="structure/">
       
       
-      <link rel="icon" href="../../assets/c_fam.png">
+      <link rel="icon" href="../assets/c_fam.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>Compiling and Running - C/C++</title>
+        <title>Introduction to C - C/C++</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,7 +52,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -77,11 +77,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#compiling-and-running-a-c-program" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -92,9 +87,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="C/C++" class="md-header__button md-logo" aria-label="C/C++" data-md-component="logo">
+    <a href=".." title="C/C++" class="md-header__button md-logo" aria-label="C/C++" data-md-component="logo">
       
-  <img src="../../assets/c_fam.png" alt="logo">
+  <img src="../assets/c_fam.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -111,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Compiling and Running
+              Introduction to C
             
           </span>
         </div>
@@ -218,7 +213,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -239,7 +234,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
   C
@@ -272,9 +267,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="C/C++" class="md-nav__button md-logo" aria-label="C/C++" data-md-component="logo">
+    <a href=".." title="C/C++" class="md-nav__button md-logo" aria-label="C/C++" data-md-component="logo">
       
-  <img src="../../assets/c_fam.png" alt="logo">
+  <img src="../assets/c_fam.png" alt="logo">
 
     </a>
     C/C++
@@ -301,7 +296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -360,10 +355,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -372,6 +374,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -384,7 +387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../structure/" class="md-nav__link">
+      <a href="structure/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -402,30 +405,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Compiling and Running
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="compiler/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -434,119 +417,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#compilers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Compilers
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Compilers">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pre-processing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pre-processing
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#compiling" class="md-nav__link">
-    <span class="md-ellipsis">
-      Compiling
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#assembler" class="md-nav__link">
-    <span class="md-ellipsis">
-      Assembler
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#linker" class="md-nav__link">
-    <span class="md-ellipsis">
-      Linker
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-gcc-compiler" class="md-nav__link">
-    <span class="md-ellipsis">
-      The GCC Compiler
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="The GCC Compiler">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#gcc-on-windows" class="md-nav__link">
-    <span class="md-ellipsis">
-      GCC on windows
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gcc-on-linux" class="md-nav__link">
-    <span class="md-ellipsis">
-      GCC on linux
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gcc-on-macos" class="md-nav__link">
-    <span class="md-ellipsis">
-      GCC on macOS
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -559,7 +429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kwd_var_const/" class="md-nav__link">
+      <a href="kwd_var_const/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -580,7 +450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../d_types_ops/" class="md-nav__link">
+      <a href="d_types_ops/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -618,109 +488,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#compilers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Compilers
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Compilers">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pre-processing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pre-processing
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#compiling" class="md-nav__link">
-    <span class="md-ellipsis">
-      Compiling
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#assembler" class="md-nav__link">
-    <span class="md-ellipsis">
-      Assembler
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#linker" class="md-nav__link">
-    <span class="md-ellipsis">
-      Linker
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-gcc-compiler" class="md-nav__link">
-    <span class="md-ellipsis">
-      The GCC Compiler
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="The GCC Compiler">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#gcc-on-windows" class="md-nav__link">
-    <span class="md-ellipsis">
-      GCC on windows
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gcc-on-linux" class="md-nav__link">
-    <span class="md-ellipsis">
-      GCC on linux
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gcc-on-macos" class="md-nav__link">
-    <span class="md-ellipsis">
-      GCC on macOS
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -738,39 +505,9 @@
   
 
 
-<h1 id="compiling-and-running-a-c-program">Compiling and Running a C program</h1>
-<h2 id="compilers">Compilers</h2>
-<p>Compiler is a program that translates a C program to machine code or an intermediate code that can be understood by the system. It involves many the following steps:  <code>preprocessing</code>, <code>compiling</code>, <code>assembling</code> and <code>linking</code>. </p>
-<p><img alt="" src="../../assets/compiling_steps.png" /></p>
-<h3 id="pre-processing">Pre-processing</h3>
-<p>The pre-processor removes the comments from the files and adds additional components in the code like:
-* addition of the definitions under the header files added through <code>#include&lt;*.h&gt;</code>
-* addition of macros defined</p>
-<p>This step creates an additional intermediate file with a <code>.i</code> extension.</p>
-<h3 id="compiling">Compiling</h3>
-<p>The intermediate file is then compiled to assembly code that is sent to the assembler.</p>
-<h3 id="assembler">Assembler</h3>
-<p>The assembler converts the compiled file to machine code and creates an object file (with <code>.o</code> extension)</p>
-<h3 id="linker">Linker</h3>
-<p>Linker links the library files with the object code where all the linking of function calls with their definitions is done. The final output by default is an executable file that can run directly on system.</p>
-<h2 id="the-gcc-compiler">The GCC Compiler</h2>
-<p>GCC (GNU Compiler Collection) is one of the popular package that provides standarized compiler tools for C and C++. It can be installed on most systems including Windows, Linux Distros and macOS.</p>
-<h3 id="gcc-on-windows">GCC on windows</h3>
-<p>GCC can be installed on windows using the <a href="https://github.com/msys2/msys2-installer/releases/download/2023-05-26/msys2-x86_64-20230526.exe">MYSY2 utility</a> tool. To install:</p>
-<ul>
-<li>click on the hyperlink above and install the program using the setup file.</li>
-<li>launch the program once installed</li>
-<li>paste this code in the active shell
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pacman<span class="w"> </span>-S<span class="w"> </span>--needed<span class="w"> </span>base-devel<span class="w"> </span>mingw-w64-ucrt-x86_64-toolchain
-</code></pre></div></li>
-<li>Select the default option and let the download complete.</li>
-<li>Add <code>C:\msys64\ucrt64\bin</code> (or the location of your <code>bin</code> installation) <a href="https://stackoverflow.com/questions/9546324/adding-a-directory-to-the-path-environment-variable-in-window">to the PATH variable</a>.</li>
-</ul>
-<h3 id="gcc-on-linux">GCC on linux</h3>
-<p>Most linux distros come with <code>gcc</code> pre-installed or as a dependency of some software you are using already. If you still want the to use the latest version of GCC, update it using the package manager of your choice.</p>
-<p>Heres a shell script for ubuntu users: <a href="https://github.com/externref/c_cpp/blob/main/ubuntu_installer.sh">ubuntu_installer.sh</a></p>
-<h3 id="gcc-on-macos">GCC on macOS</h3>
-<p>GCC is available as a homebrew package and can be installed using <code>brew install gcc</code>. However, <code>clang</code> is much popular for development in macOS environments. </p>
+  <h1>Introduction to C</h1>
+
+
 
 
 
@@ -829,10 +566,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.top", "content.code.annotate", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.top", "content.code.annotate", "content.tabs.link"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>
