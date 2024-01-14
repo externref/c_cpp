@@ -44,9 +44,13 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
+  - tables
 
 nav:
   - home: index.md
   - C: 
+      Introduction to C: c/index.md
       Code Structure: c/structure.md
       Compiling and Running: c/compiler.md
+      Keywords, Variables and Operators: c/kwd_var_const.md
+      Data Types, Operators and Expressions: c/d_types_ops.md
